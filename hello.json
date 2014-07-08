@@ -1,0 +1,226 @@
+{
+"nodes": [
+{
+"group": 0, 
+"label": 139818
+}, 
+{
+"group": 0, 
+"label": 28423
+}, 
+{
+"group": 0, 
+"label": 399023
+}, 
+{
+"group": 0, 
+"label": 411301
+}, 
+{
+"group": 0, 
+"label": 56151
+}, 
+{
+"group": 0, 
+"label": 183717
+}, 
+{
+"group": 0, 
+"label": 176965
+}, 
+{
+"group": 0, 
+"label": 437915
+}, 
+{
+"group": 0, 
+"label": 97001
+}, 
+{
+"group": 0, 
+"label": 439808
+}, 
+{
+"group": 0, 
+"label": 11981
+}, 
+{
+"group": 0, 
+"label": 426745
+}, 
+{
+"group": 0, 
+"label": 382500
+}, 
+{
+"group": 0, 
+"label": 2977
+}, 
+{
+"group": 0, 
+"label": 340662
+}, 
+{
+"group": 0, 
+"label": 339878
+}, 
+{
+"group": 0, 
+"label": 86316
+}, 
+{
+"group": 0, 
+"label": 115292
+}, 
+{
+"group": 0, 
+"label": 280632
+}, 
+{
+"group": 0, 
+"label": 397322
+}, 
+{
+"group": 0, 
+"label": 360734
+}, 
+{
+"group": 0, 
+"label": 326468
+}, 
+{
+"group": 0, 
+"label": 138330
+}, 
+{
+"group": 0, 
+"label": 414779
+}, 
+{
+"group": 0, 
+"label": 45848
+}, 
+{
+"group": 0, 
+"label": 362156
+}, 
+{
+"group": 0, 
+"label": 304355
+}, 
+{
+"group": 0, 
+"label": 283567
+}, 
+{
+"group": 0, 
+"label": 229564
+}, 
+{
+"group": 0, 
+"label": 161974
+}
+], 
+"links": [
+{
+"source": 0, 
+"target": 1, 
+"value": 52
+}, 
+{
+"source": 2, 
+"target": 1, 
+"value": 33
+}, 
+{
+"source": 3, 
+"target": 4, 
+"value": 27
+}, 
+{
+"source": 5, 
+"target": 6, 
+"value": 26
+}, 
+{
+"source": 7, 
+"target": 8, 
+"value": 25
+}, 
+{
+"source": 9, 
+"target": 1, 
+"value": 25
+}, 
+{
+"source": 10, 
+"target": 11, 
+"value": 22
+}, 
+{
+"source": 12, 
+"target": 13, 
+"value": 22
+}, 
+{
+"source": 14, 
+"target": 15, 
+"value": 21
+}, 
+{
+"source": 0, 
+"target": 4, 
+"value": 21
+}, 
+{
+"source": 16, 
+"target": 1, 
+"value": 21
+}, 
+{
+"source": 17, 
+"target": 1, 
+"value": 20
+}, 
+{
+"source": 18, 
+"target": 19, 
+"value": 20
+}, 
+{
+"source": 20, 
+"target": 21, 
+"value": 20
+}, 
+{
+"source": 22, 
+"target": 1, 
+"value": 19
+}, 
+{
+"source": 23, 
+"target": 24, 
+"value": 19
+}, 
+{
+"source": 25, 
+"target": 26, 
+"value": 19
+}, 
+{
+"source": 27, 
+"target": 4, 
+"value": 19
+}, 
+{
+"source": 28, 
+"target": 1, 
+"value": 18
+}, 
+{
+"source": 29, 
+"target": 24, 
+"value": 18
+}
+]
+}

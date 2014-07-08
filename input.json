@@ -1,0 +1,14 @@
+{
+    "nodes":[
+        {"group": 52, "label":183717}, 
+        {"group": 33, "label":399023}, 
+        {"group": 27, "label":411301}, 
+        {"group": 26, "label":18233}
+    ], 
+    "links":[
+        {"source":0,"target":1,"value":52}, 
+        {"source":1,"target":2,"value":33}, 
+        {"source":2,"target":3,"value":27}, 
+        {"source":3,"target":0,"value":26}
+    ]
+}
