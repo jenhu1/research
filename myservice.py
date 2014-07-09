@@ -60,34 +60,32 @@ class Graph:
 			tempDict["" "group"  ]= 0
 			tempList.append(tempDict.copy())
 
-
 			#print self.tempDict, "\n"
 			#each element in the src list and weight list is an item in the tempdict.
 			#add the tempdict into the temp list
 		#print tempList
 		self.graph["nodes"]=tempList
 
+
+		#for each...find the source/dest list = to the node list...get the index number...save that.
 		src_size = len(self.srcList)
+		dest_size = len(self.destList)
 		for i in range(src_size):
-			otherDict["" "source"]= self.nodeList.index(self.srcList[i])
-			#self.srcList[i]
-			otherDict["" "target"]= self.nodeList.index(self.destList[i])
-			#self.destList[i]
+			if self.srcList[i] in self.nodeList:
+				emp=self.srcList[i]
+				otherDict["" "source"]= self.nodeList.index(emp)
+			if self.destList[i] in self.nodeList:
+				temp=self.destList[i]
+				otherDict["" "target"]=  self.nodeList.index(temp)
 			otherDict["" "value"]=self.weightList[i]
 			otherList.append(otherDict.copy())
- 		# 	print self.nodeList
-			# print otherDict, "\n"
-			#each element in the src list and weight list is an item in the tempdict.
-			#add the tempdict into the temp list
-		#print tempList
 		self.graph["links"]=otherList
 
-	
 
 	def createJsonFile(self):
 		with open ("hello.json", "w") as outfile:
-  			outfile.write(unicode(json.dumps(self.graph, skipkeys=False, ensure_ascii=True, check_circular=True, 
-  				allow_nan=True, cls=None, indent=0, separators=None, encoding='utf-8', default=None)))
+  			outfile.write(unicode(json.dumps(self.graph, sort_keys = False, skipkeys=True, ensure_ascii=True, check_circular=True, 
+  				allow_nan=True, cls=None, indent=2, separators=None, encoding='utf-8', default=None)))
   		outfile.close()
 
 

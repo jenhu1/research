@@ -38,7 +38,7 @@ html, body {
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
+                   
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
@@ -47,24 +47,7 @@ html, body {
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Choose File <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li class="dropdown-header">File Type One</li>
-                            <li><a href = #>Testing 1: NodeLink</a>
-                            <!--   CALL PARSE and SET input.json = parsed thing -->
-                            </li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">File Type Two</li>
-                            <li><a href = #>Testing 2: LesMis</a>
-                             <!--   CALL PARSE and SET input.json = parsed thing -->
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href= graphData.html>Graph Edges</a>
-                       <!--CALL GRAPH DATA -->
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Options <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">View<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li class="dropdown-header">Algorithums</li>
                             <li><a href="#">Layer One</a>
@@ -75,9 +58,9 @@ html, body {
                             </li>
                             <li class="divider"></li>
                             <li class="dropdown-header">Display Options</li>
-                            <li><a href= graphData.html >Refresh</a>
+                            <li><a href=graphData.html >Refresh</a>
                             </li>
-                            <li><a href= welcomeScreen.html>Clear</a>
+                            <li><a href=welcomeScreen.html>Clear</a>
                             </li>
                         </ul>
                     </li>
@@ -98,7 +81,7 @@ html, body {
 
     var force = d3.layout.force()
         .charge(-120)
-        .linkDistance(40)
+        .linkDistance(20)
         .size([window_width, window_height]);
 
     var svg = d3.select("body").append("svg")

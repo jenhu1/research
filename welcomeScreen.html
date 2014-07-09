@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +17,9 @@
     <link href="cover.css" rel="stylesheet">
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src=http://code.jquery.com/jquery-1.8.2.min.js></script>
+    <script src=http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js></script>
     <script src=/js/tangelo.js></script>
-
 
 </head>
 
@@ -33,11 +35,20 @@
                     <div class="inner">
                         <h3 class="masthead-brand">Edges Graph</h3>
                         <ul class="nav masthead-nav">
+
                             <li class="active"><a href="#">Home</a>
                             </li>
-                            <li><a href="#">Parse</a>
-                            </li>
-                            <li><a href= graphData.html >Graph</a>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Choose Graphs<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href= graphData.html>Practice</a>
+                                    </li>
+                                    <li><a href= graphData.html>Facebook</a>
+                                    </li>
+                                    <li><a href= graphData.html>Twitter</a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -45,15 +56,15 @@
 
                 <div class="inner cover">
                     <h1 class="cover-heading">About</h1>
-                    <p class="lead">This does some cool stuff, such as....</p>
+                    <p class="lead">This program does all this cool stuff, such as....</p>
                     <p class="lead">
-                        <a href= graphData.html class="btn btn-lg btn-default">Enter</a>
+                        <a href= graphData.html class="btn btn-lg btn-default" id="enter">Enter</a>
                     </p>
                 </div>
 
                 <div class="mastfoot">
                     <div class="inner">
-                        <p>Networks Project <a href="http://ahpcrc.stanford.edu/?q=research/project/high-performance-data-analytics">AHPCRC </a>, by <a href= "#"> Research Group </a>.</p>
+                        <p>Networks Project <a href="http://ahpcrc.stanford.edu/?q=research/project/high-performance-data-analytics">AHPCRC </a>, by <a href="#"> Research Group </a>.</p>
                     </div>
                 </div>
 
